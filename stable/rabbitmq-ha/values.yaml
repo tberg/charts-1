@@ -325,7 +325,7 @@ readinessProbe:
 # Specifies an existing secret to be used for RMQ password and Erlang Cookie
 existingSecret: ""
 
-clusterDomain: svc.cluster.local
+clusterDomain: cluster.local
 
 prometheus:
   ## Configures Prometheus Exporter to expose and scrape stats.
